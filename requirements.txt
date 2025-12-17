@@ -1,4 +1,5 @@
-streamlit==1.31.0
-pandas==2.1.4
-plotly==5.18.0
+--prefer-binary
+streamlit==1.28.1
+pandas==2.0.3
+plotly==5.17.0
 streamlit-option-menu==0.3.6
