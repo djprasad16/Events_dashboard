@@ -1,0 +1,5 @@
+import sqlalchemy as sa
+
+engine = sa.create_engine("postgresql://user:pass@host:5432/db")
+
+df = pd.read_sql("SELECT * FROM application_events", engine)
